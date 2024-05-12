@@ -9,14 +9,18 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.17.0",
     "@shikijs/vitepress-twoslash": "^1.5.1",
     "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^9.2.0",
     "typescript": "^5.2.2",
     "unocss": "^0.60.1",
     "unplugin-vue-components": "^0.27.0",
